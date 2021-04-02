@@ -6,7 +6,7 @@
 }
 
 body {
-	background:radial-gradient(#8e44ad,#240033);
+	background:radial-gradient(#8e44ad,#8e44ad);
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	align-items: center;
@@ -70,23 +70,6 @@ body {
 
 .form-control.error input {
 	border-color: #ff1900;
-}
-
-.form-control i {
-	visibility: hidden;
-	position: absolute;
-	top: 40px;
-	right: 10px;
-}
-
-.form-control.success i.fa-check-circle {
-	color: #2ecc71;
-	visibility: visible;
-}
-
-.form-control.error i.fa-exclamation-circle {
-	color: #ff1900;
-	visibility: visible;
 }
 
 .form-control small {
