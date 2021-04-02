@@ -1,3 +1,3 @@
 OPEN FILE: https://valeri111.github.io/JS/Carousel/
 
-https://github.com/JS/Carousel/img/screen.JPG
+![alt text](https://github.com/JS/Carousel/img/screen.JPG)
