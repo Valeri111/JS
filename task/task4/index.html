@@ -1,62 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="validation/dist/jquery.validate.js"></script>
+    <link rel="stylesheet" href="style.css" >
+    <title>LR25</title>
 </head>
 <body>
-	<form action="#" name="form">
-		
-		
-		<input type="radio" name="radio" value="Radio 1">Radio 1
-		<input type="radio" name="radio" value="Radio 2">Radio 2
-		<br>
-		<input type="checkbox" name="check" value="Chek 1">Check 1
-		<input type="checkbox" name="check" value="Chek 2">Check 2
-		<input type="checkbox" name="check" value="Chek 3">Check 3
-		<br>
-		<select name="userSelect">
-			<option name="options" disabled selected> select an option </option>
-			<option name="options" value="Option 1" >Option 1</option>
-			<option name="options" value="Option 2">Option 2</option>
-		</select>
-		
+  <form action="#" name="test" id="form">
+        <h1>Тест: История Беларуси </h1>
+        <h3>В каком году  была принята Конституция Республики Беларусь?</h3>
+        <input type="radio" name="history"value="wrong ">1993
+        <input type="radio" name="history" value="right"> 1994
+        <input type="radio" name="history" value="wrong">1991
+        <h3>Какие произведения белорусских писателей?</h3>
+        <input type="checkbox" name="composition" value="Новая земля">Новая земля
+        <input type="checkbox" name="composition" value="Люди на болоте">Люди на болоте
+        <input type="checkbox" name="composition" value="Мы">Мы
+        <input type="checkbox" name="composition" value="Раскиданное гнездо">Раскиданное гнездо
+        <h3>Что изображено на картинке?</h3>
+        <img src="http://zviazda.by/sites/default/files/pasport1.jpg" ><br>
+        <input type="text" name="manifest">
+        <button type="submit" id="submit">Verify</button>
+    </form>
 
-		<br>
-		<textarea id="text1"></textarea>
-		<br>
-		<button id="button1">Change background</button>
-		<br>
-		<input id="button2" type="reset" value="Search in textArea" >
-		<br>
-		<input id="button3" type="submit" value="Submit form">
-		<br>
-		<button id="button4">Button like submit</button>
-	</form>
-
-
-	<p id="p1"></p>
-
-
-	<form action="#" name="test">
-		<h1>Тест: История Беларуси </h1>
-		<h3>В каком году  была принята Конституция Республики Беларусь?</h3>
-		<input type="radio" name="history"value="wrong ">1993
-		<input type="radio" name="history" value="right"> 1994
-		<input type="radio" name="history" value="wrong">1991
-		<h3>Какие произведения белорусских писателей?</h3>
-		<input type="checkbox" name="composition" value="Новая земля">Новая земля
-		<input type="checkbox" name="composition" value="Люди на болоте">Люди на болоте
-		<input type="checkbox" name="composition" value="Мы">Мы
-		<input type="checkbox" name="composition" value="Раскиданное гнездо">Раскиданное гнездо
-		<h3>Что изображено на картинке?</h3>
-		<img src="http://zviazda.by/sites/default/files/pasport1.jpg" ><br>
-		<input type="text" name="manifest">
-		<button type="submit" id="submit">Verify</button>
-	</form>
-		
-	<script src="script.js"></script>
+    <div id="div"></div>
+    <script src="script.js"></script>
 </body>
 </html>
