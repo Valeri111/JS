@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <title>Programación Funcional con Javascript</title>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <h1>Calories Counter</h1>
+        </header>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Calories</th>
+                    </tr>
+                </thead>
+                <tbody id="list-items">
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td id="total">Total</td>
+                        <td id="total_calories" >0</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="form-container">
+            <form >
+                <div>
+                    <select onchange="Val()" name="drink" id="drink">
+                        <option value="" selected>Выберите напиток</option>
+                        <option value="coffee">Кофе</option>
+                        <option value="cola">Coca-Cola</option>
+                        <option value="fanta">Fanta</option>
+                        <option value="sprite">Sprite</option>
+                    </select>
+                    <select onchange="Val2(), Total()" name="size" id="size">
+                        <option value="" selected>Выберите размер</option>
+                        <option value="2">S</option>
+                        <option value="3">M</option>
+                        <option value="4">L</option>
+                    </select>
+                    <p id="sugar" >Сахар <input id="sugarValue" type="checkbox" value ="20"></p>
+                    <p id="cream">Сливки <input id="creamValue" type="checkbox" value ="30"></p>
+                </div>
+            </form>
+            <button onclick="Add()" id="add">+</button>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
