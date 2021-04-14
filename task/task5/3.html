@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head><title>lab26</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Программировать</h1>
+<ol>
+	<li>frontend</li>
+	<ul>
+		<li>верстка</li>
+		<li>анимация</li>
+	</ul>
+	<li>backend</li>
+	<ul>
+		<li>сервер</li>
+		<li>запросы</li>
+	</ul>
+</ol>
+<button onclick="change()">Change style</button>
+<script>
+let clicks = 0;
+	function change()
+{	if (clicks%2==0) { document.head.children[1].setAttribute("href", "style2.css");
+	clicks++; } else {document.head.children[1].setAttribute("href", "style.css");
+	clicks++; } }
+	</script>
+</body>
+</html>

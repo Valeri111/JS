@@ -1,0 +1,18 @@
+body {
+	background-color: rgb(0, 0, 0);
+}
+
+ul {
+	color: rgb(255, 255, 255);
+	font: 15px Verdana;
+}
+
+ol {
+	color: rgb(255, 255, 255);
+	font: 20px Franklin Gothic Book;
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	font: 30px Century Gothic;
+}
