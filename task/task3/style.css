@@ -1,0 +1,16 @@
+#table{
+    text-align: center;
+}
+td{
+    padding: 15px;
+    border: 3px solid #ddd;
+}
+.grey{
+    background: rgb(223, 212, 212);
+}
+.green{
+    background: rgb(119, 231, 109);
+}
+thead,tfoot{
+    font-weight: bold;
+}
