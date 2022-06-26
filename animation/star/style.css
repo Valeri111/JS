@@ -114,3 +114,20 @@ html {
     50% { opacity: 0 }
     100% { opacity: 1 }
 }
+
+.rain {
+	position: fixed;
+	width: 1.5px; 
+	height: 3px;
+    top: -3px;
+	background-color: rgba(255, 255, 255, 0.423);
+	animation: rain 2.2s linear infinite;
+	z-index: 99;
+	border-radius: 50%;
+}
+
+@keyframes rain {
+	to {
+		transform: translate3d(-200px, 100vh, 0); 
+	}
+}
